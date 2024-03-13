@@ -5,7 +5,7 @@ export default defineConfig({
     baseUrl: "http://localhost:5173/",
     projectId: "ozsx7a",
     setupNodeEvents(on, config) {
-      // implement node event listeners here // deleted the prevoiuse comment and added new comment to tyhe config file 
+      // implement node event listeners here// test comment for the commit  
     },
   },
 });
