@@ -12,5 +12,6 @@ describe('First spec file to test', () => {
     cy.get('[data-cy=app-button]').contains("count is 1");
     cy.get('[data-cy=app-button]').click();
     cy.get('[data-cy=app-button]').contains("count is 2");
+    //added  comment to the cypress file 
   })
 })
