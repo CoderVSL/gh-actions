@@ -1,5 +1,9 @@
 name: Run Cypress Tests
-on: [pull_request]
+
+on: 
+  pull_request:
+    branches:
+      -main
 jobs:
   install:
     runs-on: ubuntu-latest
