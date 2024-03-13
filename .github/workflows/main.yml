@@ -3,7 +3,7 @@ name: Run Cypress Tests
 on: 
   pull_request:
     branches:
-      -main
+      - main
 jobs:
   install:
     runs-on: ubuntu-latest
